@@ -112,7 +112,7 @@ var appRoutes = [
     { path: '', pathMatch: 'full', component: __WEBPACK_IMPORTED_MODULE_1__main_view_main_view_component__["a" /* MainViewComponent */] },
     { path: 'specific/:id', component: __WEBPACK_IMPORTED_MODULE_2__more_specific_more_specific_component__["a" /* MoreSpecificComponent */] }
 ];
-var AppRoutesModule = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(appRoutes);
+var AppRoutesModule = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(appRoutes, { useHash: true });
 //# sourceMappingURL=app.routing.js.map
 
 /***/ }),
